@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" 
+xmlns:v1="http://www.active.com/api/external-endurance-report/v1">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v1:getEvents>
+         <!--Optional:-->
+         <v1:context>
+            <!--Optional:-->
+            <appToken>5VSS3mf74TCtCsDj6a7fNj/8qwvoaoT7HPaNg82xIpAUtmdeIFlrYJ/+BQWz8nK5</appToken>
+         </v1:context>
+         <!--Optional:-->
+         <v1:request>
+            <v1:version>1.0</v1:version>
+         </v1:request>
+      </v1:getEvents>
+   </soapenv:Body>
+</soapenv:Envelope>
